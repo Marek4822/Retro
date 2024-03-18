@@ -1,0 +1,102 @@
+@import url("https://fonts.cdnfonts.com/css/pf-ronda-seven");
+html {
+  background-image: linear-gradient(
+    to right,
+    black,
+    rgb(74, 74, 136) 50%,
+    black
+  );
+  background-size: cover;
+  font-family: "PF Ronda Seven", sans-serif;
+  color: #111314;
+
+  /* overflow: hidden; */
+}
+.main {
+  background-image: url("../src/assets/retrodevice.png");
+
+  background-size: cover;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 538px;
+  height: 850px;
+  image-rendering: pixelated;
+}
+
+.section {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  font-family: "PF Ronda Seven", sans-serif;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+button > img {
+  width: 20px;
+  margin-left: 20px;
+}
+
+button > img:hover {
+  opacity: 0.6;
+}
+.verticalData p {
+  margin: 0px;
+}
+
+.verticalData > p:nth-child(1) {
+  font-size: 34px;
+}
+.verticalData > p:nth-child(2) {
+  font-weight: lighter;
+}
+
+.verticalData > p:nth-child(4) {
+  font-size: 43px;
+  font-weight: lighter;
+}
+.verticalData img {
+  width: 100px;
+  height: 100px;
+}
+
+.horizontalData {
+  font-size: 15px;
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+.horizontalData p {
+  margin: 10px;
+  padding: 0;
+}
+
+.horizontalData span {
+  font-size: 12px;
+}
+
+.slider {
+  max-width: 50vh;
+  margin: auto;
+}
+
+.sliderDiv li {
+  list-style-type: none;
+  display: inline-block;
+  box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 1);
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+}
