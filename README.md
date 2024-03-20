@@ -1,5 +1,4 @@
-# React + Vite
-# Retro WeatherApp
+# React + Vite -> Retro WeatherApp
 
 ## Preview:
 ![retro](https://github.com/Marek4822/Retro/assets/136629186/7f9b2e8b-fa05-43d3-98d2-e3926f705a83)
