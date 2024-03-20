@@ -1,8 +1,19 @@
 # React + Vite
+# Retro WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview:
+![retro](https://github.com/Marek4822/Retro/assets/136629186/7f9b2e8b-fa05-43d3-98d2-e3926f705a83)
 
-Currently, two official plugins are available:
+## Installation and running locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```sh
+npm run install
+npm run dev
+```
+
+## Building and running in Docker
+
+```sh
+docker build -t retro-app-img .
+docker run -d --rm -p 8080:8080 --name retro-app-con retro-app-img
+```
